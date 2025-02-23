@@ -15,7 +15,7 @@ This is a **machine learning web application** built using **Flask** and a train
 
 
 ## 🚀 Live Demo
-🌐 **Try the app here** 👉 [Hosted Link]()  
+🌐 **Try the app here** 👉 [Hosted Link](https://titanic-survival-prediction-xnsa.onrender.com)  
   
 
 ---
