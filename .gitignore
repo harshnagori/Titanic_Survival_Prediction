@@ -15,7 +15,6 @@ venv/
 .env  
 
 # Ignore large model files  
-*.pkl  
 *.h5  
 
 # Ignore dataset files  
