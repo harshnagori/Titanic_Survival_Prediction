@@ -1,22 +1,28 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pkl
-*.log
-*.env
-*.DS_Store
-venv/
+# Ignore Jupyter Notebook checkpoints  
+.ipynb_checkpoints/  
 
-# Flask-specific
-instance/
-.flaskenv
+# Ignore all Jupyter notebooks, but allow selected ones  
+*.ipynb  
+!important_notebook.ipynb  
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Ignore Python cache files  
+__pycache__/  
+*.pyc  
+*.pyo  
 
-# IDE-specific (if you're using any)
-.vscode/
-.idea/
+# Ignore virtual environment and environment files  
+venv/  
+.env  
 
-# Deployment-specific
-*.sqlite3
+# Ignore large model files  
+*.pkl  
+*.h5  
+
+# Ignore dataset files  
+*.csv  
+data/  
+datasets/  
+
+# Ignore system files  
+.DS_Store  
+Thumbs.db  
