@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+*.env
+*.DS_Store
+venv/
+
+# Flask-specific
+instance/
+.flaskenv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific (if you're using any)
+.vscode/
+.idea/
+
+# Deployment-specific
+*.sqlite3
